@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "python-sqlserver-integration"
-version = "0.1.0"
+version = "0.2.0"
 description = ""
 authors = ["PROENÇA, Marco <contato.marcoproenca@gmail.com>"]
 readme = "README.md"
@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.12"
 pyodbc = "^5.1.0"
 python-dotenv = "^1.0.1"
+sqlalchemy = {extras = ["pyodbc"], version = "^2.0.35"}
 
 
 [build-system]
